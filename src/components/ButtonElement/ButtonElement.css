@@ -1,0 +1,138 @@
+.nav > svg {
+    display: none;
+} 
+
+.button-container.nav {
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.button.nav {
+    border: 1px solid rgb(236, 244, 255);
+    border-radius: 8px; 
+   
+    width: 88px;
+    height: 32px;
+    color: rgb(236, 244, 255);
+    text-align: center;
+    transition: all 0.3s ease-in-out; 
+      
+}
+
+.button.nav:hover {
+    background-color: rgba(197, 188, 173, 0.4);
+    box-shadow: 4px;
+    
+}
+
+
+
+@media screen and (max-width: 768px) {
+.button.nav {
+    
+    border: 2px solid ;
+    padding: 0 16px;
+    width: 240px;
+    height: 56px;
+
+    
+   
+    }   
+}
+
+.button-container.learnmore {
+    display: flex;
+    margin-left: 8px;
+    justify-content: flex-start;
+    overflow: hidden;
+  
+}
+
+@media screen and (max-width: 768px) {
+    .button-container.learnmore {margin-left: 4px;}
+}
+
+.button.learnmore{
+    display: flex;
+    color: rgb(236, 244, 255);
+    padding: 8px 12px;
+    margin-top: 16px;
+    width: 70%;
+    position: relative;
+    max-width: 200px;
+    transition: 0.5s;
+   
+}
+
+.button.learnmore.th2 {
+    color: rgb(19, 15, 27);
+}
+
+
+.button.learnmore div:nth-child(1) {
+    position: absolute;
+    background-color: rgb(236, 244, 255);
+    height: 100%;
+    width: 2px;
+    left: 0;
+    top: 0;
+    transform-origin: bottom;
+    transition: transform .5s;
+   
+}
+
+
+
+.button.learnmore:hover div:nth-child(1) {
+    transform: scaleY(0); 
+}
+
+.button.learnmore div:nth-child(2) {
+    position: absolute;
+    background-color: rgb(236, 244, 255);
+    height: 1px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    transform-origin: left;
+    transition: transform .3s;
+    transform: scaleX(0);
+}
+.button.learnmore.th2 div:nth-child(1) {
+    background-color: rgb(19, 15, 27);
+}
+.button.learnmore.th2 div:nth-child(2) {
+    background-color: rgb(19, 15, 27);
+}
+
+.button.learnmore:hover div:nth-child(2) {
+    transform: scaleX(1);
+}
+
+
+
+
+
+.button.learnmore svg {
+    display: block;
+    position: absolute;
+    right: 0%;
+    font-size: 1.4rem;
+    align-self: center;
+   opacity: 0;
+   transition: 0.6s;
+   transform: translateX(-12px);
+ 
+
+}
+
+.button.learnmore:hover svg {
+    transform: translateX(0);
+    opacity: 100%;
+
+ 
+
+    
+}

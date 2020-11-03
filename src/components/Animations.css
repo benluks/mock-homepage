@@ -1,0 +1,72 @@
+@keyframes EnterScreen {
+    0% {
+        transform: translateY(100%);
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+@keyframes EnterNav {
+    0% {transform: translateY(-100%);}
+    
+    50% {
+        transform: translateY(-100%);
+        opacity: 0
+    }
+}
+
+@keyframes EnterButton {
+    0% {opacity: 0;}
+    90% {opacity: 0;
+    transform: translateY(-200%);}
+    
+}
+
+@keyframes EnterText {
+    0% {
+        transform: translateX(-150%);
+        opacity: 0;
+    }
+    70% {
+        transform: translateX(-150%);
+        transform: translateY(-60%);
+        opacity: 0
+    }
+    100% {
+        transform: translateX(0);
+        transform: translateY(-60%);  
+        opacity: 1;     
+    }
+}
+
+@keyframes EnterHeader {
+    0% {opacity: 0;}
+    80% {opacity: 0;
+        transform: translateX(-200%);}
+    90% {opacity: 0;}
+  
+}
+
+
+
+.welcome-content__wrapper {
+    animation: EnterScreen 1s;
+}
+
+nav {
+    animation: EnterNav 2s;
+}
+
+.header-wrapper {
+    animation: EnterText 2.8s;
+}
+
+.main-header {
+    animation: EnterHeader 3.5s;
+}
+
+.button.learnmore {
+    animation: EnterButton 4s;
+}
