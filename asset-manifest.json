@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/mock-homepage/static/css/main.74ffa223.chunk.css",
+    "main.js": "/mock-homepage/static/js/main.3fc72f2b.chunk.js",
+    "main.js.map": "/mock-homepage/static/js/main.3fc72f2b.chunk.js.map",
+    "runtime-main.js": "/mock-homepage/static/js/runtime-main.c14ed422.js",
+    "runtime-main.js.map": "/mock-homepage/static/js/runtime-main.c14ed422.js.map",
+    "static/css/2.8c2ae137.chunk.css": "/mock-homepage/static/css/2.8c2ae137.chunk.css",
+    "static/js/2.3e747e6f.chunk.js": "/mock-homepage/static/js/2.3e747e6f.chunk.js",
+    "static/js/2.3e747e6f.chunk.js.map": "/mock-homepage/static/js/2.3e747e6f.chunk.js.map",
+    "index.html": "/mock-homepage/index.html",
+    "static/css/2.8c2ae137.chunk.css.map": "/mock-homepage/static/css/2.8c2ae137.chunk.css.map",
+    "static/css/main.74ffa223.chunk.css.map": "/mock-homepage/static/css/main.74ffa223.chunk.css.map",
+    "static/js/2.3e747e6f.chunk.js.LICENSE.txt": "/mock-homepage/static/js/2.3e747e6f.chunk.js.LICENSE.txt",
+    "static/media/video.d97eefd1.mp4": "/mock-homepage/static/media/video.d97eefd1.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c14ed422.js",
+    "static/css/2.8c2ae137.chunk.css",
+    "static/js/2.3e747e6f.chunk.js",
+    "static/css/main.74ffa223.chunk.css",
+    "static/js/main.3fc72f2b.chunk.js"
+  ]
+}
